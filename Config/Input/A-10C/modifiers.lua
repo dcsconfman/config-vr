@@ -19,6 +19,11 @@ local modifiers = {
 		["key"] = "LWin",
 		["switch"] = false,
 	},
+	["Lever"] = {
+		["device"] = "Joystick - HOTAS Warthog {DEVICE_INSTANCE_GUID}",
+		["key"] = "JOY_BTN4",
+		["switch"] = false,
+	},
 	["RAlt"] = {
 		["device"] = "Keyboard",
 		["key"] = "RAlt",
@@ -37,11 +42,6 @@ local modifiers = {
 	["RWin"] = {
 		["device"] = "Keyboard",
 		["key"] = "RWin",
-		["switch"] = false,
-	},
-	["Trigger"] = {
-		["device"] = "Controller (XBOX 360 For Windows) {DEVICE_INSTANCE_GUID}",
-		["key"] = "JOY_BTN5",
 		["switch"] = false,
 	},
 }
